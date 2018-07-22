@@ -10,7 +10,7 @@ namespace MultiBinding
 {
    public class TotalConverter : IMultiValueConverter
     {
-
+        /* Simple comment added */
         public object Convert(object[] values, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             decimal Amount = 0;
